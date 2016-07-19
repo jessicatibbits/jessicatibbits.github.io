@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+  <title>Jessica Tibbits</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link href='/styles/style.css' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
+        <link href='/styles/magnific.css' rel='stylesheet' type='text/css'>
+  <script src='https://code.jquery.com/jquery-1.12.0.min.js'></script>
+  
+</head>
+<body>
+<div id="outer-wrapper">
+  <div id="middle-wrapper">
+  <div id="inner-wrapper">
+<header>
+<h1><a href="/"><img id="logo-image" src="/images/logo.jpg" alt="Jessica Tibbits" /></a></h1> 
+
+  
+
+
+
+<nav><ul id="top-nav"><li><a  href="/paint/about">ABOUT</a></li>
+<li><a class="current" href="/paint/portfolio">PORTFOLIO</a></li>
+<li><a  href="/paint/contact">CONTACT</a></li>
+</ul></nav></header>
+<section id="content-wrapper"><div class="row"><div class="image-wrapper col-sm-4"><div style="margin:0 10px">
+<a class="group pdf-link" href="/sections/02-paint/02-portfolio/01-J-and-D-01.jpg">
+<img class="img-responsive portfolio-image" src="/sections/02-paint/02-portfolio/thumb-J-and-D-thumb.jpg" />
+</a><a class="sibling" href="/sections/02-paint/02-portfolio/01-J-and-D-01.jpg"></a><a class="sibling" href="/sections/02-paint/02-portfolio/01-J-and-D-02.jpg"></a><a class="sibling" href="/sections/02-paint/02-portfolio/01-J-and-D-03.jpg"></a><a class="sibling" href="/sections/02-paint/02-portfolio/01-J-and-D-04.jpg"></a><a class="sibling" href="/sections/02-paint/02-portfolio/01-J-and-D-05.jpg"></a></div></div><div class="image-wrapper col-sm-4"><div style="margin:0 10px">
+<a class="group pdf-link" href="/sections/02-paint/02-portfolio/02-Zoe-01.jpg">
+<img class="img-responsive portfolio-image" src="/sections/02-paint/02-portfolio/thumb-Zoe-thumb.jpg" />
+</a><a class="sibling" href="/sections/02-paint/02-portfolio/02-Zoe-01.jpg"></a><a class="sibling" href="/sections/02-paint/02-portfolio/02-Zoe-02.jpg"></a></div></div><div class="image-wrapper col-sm-4"><div style="margin:0 10px">
+<a class="group pdf-link" href="/sections/02-paint/02-portfolio/03-Max-Factor-01.jpg">
+<img class="img-responsive portfolio-image" src="/sections/02-paint/02-portfolio/thumb-Max-Factor-thumb.jpg" />
+</a><a class="sibling" href="/sections/02-paint/02-portfolio/03-Max-Factor-01.jpg"></a><a class="sibling" href="/sections/02-paint/02-portfolio/03-Max-Factor-02.jpg"></a><a class="sibling" href="/sections/02-paint/02-portfolio/03-Max-Factor-03.jpg"></a><a class="sibling" href="/sections/02-paint/02-portfolio/03-Max-Factor-04.jpg"></a></div></div><div class="clearfix"></div><div class="image-wrapper col-sm-4"><div style="margin:0 10px">
+<a class="group pdf-link" href="/sections/02-paint/02-portfolio/04-Ottilie-01.jpg">
+<img class="img-responsive portfolio-image" src="/sections/02-paint/02-portfolio/thumb-Ottilie-thumb.jpg" />
+</a><a class="sibling" href="/sections/02-paint/02-portfolio/04-Ottilie-01.jpg"></a></div></div><div class="image-wrapper col-sm-4"><div style="margin:0 10px">
+<a class="group pdf-link" href="/sections/02-paint/02-portfolio/05-Danielle-01.jpg">
+<img class="img-responsive portfolio-image" src="/sections/02-paint/02-portfolio/thumb-Danielle-thumb.jpg" />
+</a><a class="sibling" href="/sections/02-paint/02-portfolio/05-Danielle-01.jpg"></a><a class="sibling" href="/sections/02-paint/02-portfolio/05-Danielle-02.jpg"></a><a class="sibling" href="/sections/02-paint/02-portfolio/05-Danielle-03.jpg"></a></div></div><div class="image-wrapper col-sm-4"><div style="margin:0 10px">
+<a class="group pdf-link" href="/sections/02-paint/02-portfolio/06-Diptyque-01.jpg">
+<img class="img-responsive portfolio-image" src="/sections/02-paint/02-portfolio/thumb-Diptyque-thumb.jpg" />
+</a><a class="sibling" href="/sections/02-paint/02-portfolio/06-Diptyque-01.jpg"></a></div></div><div class="clearfix"></div><div class="image-wrapper col-sm-4"><div style="margin:0 10px">
+<a class="group pdf-link" href="/sections/02-paint/02-portfolio/07-Guerlain-01.jpg">
+<img class="img-responsive portfolio-image" src="/sections/02-paint/02-portfolio/thumb-Guerlain-thumb.jpg" />
+</a><a class="sibling" href="/sections/02-paint/02-portfolio/07-Guerlain-01.jpg"></a></div></div><div class="image-wrapper col-sm-4"><div style="margin:0 10px">
+<a class="group pdf-link" href="/sections/02-paint/02-portfolio/08-Clare-01.jpg">
+<img class="img-responsive portfolio-image" src="/sections/02-paint/02-portfolio/thumb-Clare-thumb.jpg" />
+</a><a class="sibling" href="/sections/02-paint/02-portfolio/08-Clare-01.jpg"></a><a class="sibling" href="/sections/02-paint/02-portfolio/08-Clare-02.jpg"></a><a class="sibling" href="/sections/02-paint/02-portfolio/08-Clare-03.jpg"></a></div></div><div class="image-wrapper col-sm-4"><div style="margin:0 10px">
+<a class="group pdf-link" href="/sections/02-paint/02-portfolio/09-illios-01.jpg">
+<img class="img-responsive portfolio-image" src="/sections/02-paint/02-portfolio/thumb-illios-thumb.jpg" />
+</a><a class="sibling" href="/sections/02-paint/02-portfolio/09-illios-01.jpg"></a><a class="sibling" href="/sections/02-paint/02-portfolio/09-illios-02.jpg"></a><a class="sibling" href="/sections/02-paint/02-portfolio/09-illios-03.jpg"></a></div></div><div class="clearfix"></div></div>
+
+<script>
+$(window).load(function(){
+  $('img', 'a.pdf-link').click(function(e){
+    
+    e.preventDefault();
+    
+    var target = $(e.target);
+    var siblings = target.parent().siblings();
+    var items = [];
+    
+    $(siblings).each(function(i,v){
+      var item = {src:$(v).attr('href')};
+      items.push(item);
+      
+      if(i === siblings.length -1)
+      {
+          $.magnificPopup.open({
+            items : items,
+            gallery : { enabled : true },
+            type : 'image'
+          });
+      }
+    });
+    
+  });
+});  
+</script>
+
+
+
+
+
+
+
+
+
+
+</section>
+
+
+</div></div></div>
+<script src='/scripts/magnific.js'></script>
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+  <title>Jessica Tibbits</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link href='/styles/style.css' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
+        <link href='/styles/magnific.css' rel='stylesheet' type='text/css'>
+  <script src='https://code.jquery.com/jquery-1.12.0.min.js'></script>
+  
+</head>
+<body>
+<div id="outer-wrapper">
+  <div id="middle-wrapper">
+  <div id="inner-wrapper">
+<header>
+<h1><a href="/"><img id="logo-image" src="/images/logo.jpg" alt="Jessica Tibbits" /></a></h1> 
+
+  
+
+
+
+<nav><ul id="top-nav"><li><a  href="/write/about">ABOUT</a></li>
+<li class="current"><a href="#">PORTFOLIO<ul class="hover-menu">
+<li><a href="/write/portfolio/celebrity">CELEBRITY</a></li>
+<li><a href="/write/portfolio/editorial">EDITORIAL</a></li>
+<li><a href="/write/portfolio/promotions">PROMOTIONS</a></li>
+<li><a href="/write/portfolio/still-life">STILL-LIFE</a></li>
+<li><a href="/write/portfolio/travel">TRAVEL</a></li>
+</ul></a></li>
+<li><a  href="/write/contact">CONTACT</a></li>
+</ul></nav></header>
+<section id="content-wrapper"><div class="row"><div class="image-wrapper col-sm-3"><div style="margin:0 10px">
+<a class="group pdf-link" href="/sections/01-write/02-portfolio/04-still-life/01-Seven-days-of-summer/Seven-days-of-summer.jpg">
+<img class="img-responsive portfolio-image" src="/sections/01-write/02-portfolio/04-still-life/01-Seven-days-of-summer/Seven-days-of-summer.jpg" />
+<span class="image-caption">Seven days of summer</span></a>
+<a class="sibling" href="/sections/01-write/02-portfolio/04-still-life/01-Seven-days-of-summer/01-Seven-days-of-summer.pdf"></a>
+</div></div>
+<div class="image-wrapper col-sm-3"><div style="margin:0 10px">
+<a class="group pdf-link" href="/sections/01-write/02-portfolio/04-still-life/02-Spring-clean/Spring-clean.jpg">
+<img class="img-responsive portfolio-image" src="/sections/01-write/02-portfolio/04-still-life/02-Spring-clean/Spring-clean.jpg" />
+<span class="image-caption">Spring clean</span></a>
+<a class="sibling" href="/sections/01-write/02-portfolio/04-still-life/02-Spring-clean/01-Spring-clean.pdf"></a>
+</div></div>
+<div class="image-wrapper col-sm-3"><div style="margin:0 10px">
+<a class="group pdf-link" href="/sections/01-write/02-portfolio/04-still-life/03-Golden-girl/Golden-girl.jpg">
+<img class="img-responsive portfolio-image" src="/sections/01-write/02-portfolio/04-still-life/03-Golden-girl/Golden-girl.jpg" />
+<span class="image-caption">Golden girl</span></a>
+<a class="sibling" href="/sections/01-write/02-portfolio/04-still-life/03-Golden-girl/01-Golden-girl.pdf"></a>
+</div></div>
+<div class="image-wrapper col-sm-3"><div style="margin:0 10px">
+<a class="group pdf-link" href="/sections/01-write/02-portfolio/04-still-life/04-Colour-tribes/02-Colour-tribes.pdf">
+<img class="img-responsive portfolio-image" src="/sections/01-write/02-portfolio/04-still-life/04-Colour-tribes/Colour-tribes.jpg" />
+<span class="image-caption">Colour tribes</span></a>
+<a class="sibling" href="/sections/01-write/02-portfolio/04-still-life/04-Colour-tribes/01-Colour-tribes.pdf"></a>
+<a class="sibling" href="/sections/01-write/02-portfolio/04-still-life/04-Colour-tribes/02-Colour-tribes.pdf"></a>
+<a class="sibling" href="/sections/01-write/02-portfolio/04-still-life/04-Colour-tribes/03-Colour-tribes.pdf"></a>
+</div></div>
+<div class="image-wrapper col-sm-3"><div style="margin:0 10px">
+<a class="group pdf-link" href="/sections/01-write/02-portfolio/04-still-life/05-Heavy-metal/Heavy-metal.jpg">
+<img class="img-responsive portfolio-image" src="/sections/01-write/02-portfolio/04-still-life/05-Heavy-metal/Heavy-metal.jpg" />
+<span class="image-caption">Heavy metal</span></a>
+<a class="sibling" href="/sections/01-write/02-portfolio/04-still-life/05-Heavy-metal/01-Heavy-metal.pdf"></a>
+</div></div>
+<div class="image-wrapper col-sm-3"><div style="margin:0 10px">
+<a class="group pdf-link" href="/sections/01-write/02-portfolio/04-still-life/06-Dream-creams/Dream-creams.jpg">
+<img class="img-responsive portfolio-image" src="/sections/01-write/02-portfolio/04-still-life/06-Dream-creams/Dream-creams.jpg" />
+<span class="image-caption">Dream creams</span></a>
+<a class="sibling" href="/sections/01-write/02-portfolio/04-still-life/06-Dream-creams/01-Dream-creams.pdf"></a>
+</div></div>
+
+
+
+<script>
+$(window).load(function(){
+  
+  $( 'a', '.hover-menu' ).click(function(e){
+    
+    e.preventDefault();
+    
+    var url = (window.location.href);
+    var href = ($(e.target).attr('href'));
+    console.log(99);
+    if(url.indexOf(href)<0)
+    {
+      $.ajax({
+        url : href + '?ajax='+href.substring(1),
+        success : function( result )
+        {
+          
+          $( 'div.image-wrapper' ).css( { transition : 'transform 1s', transform : 'scale( 0 )' } )
+            .on( 'transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd' , function( e )
+            {
+            $( 'div.image-wrapper' ).off();
+            window.history.replaceState('', 'Portfolio', href);
+            $('.row').replaceWith(result);
+          });
+        }
+      });
+      
+      
+    }
+      
+    
+
+    
+    
+    
+  });
+
+$( 'body' ).on( 'click' , 'a.pdf-link img', function( e )
+{
+   e.preventDefault();
+   var target = $(e.target);
+   var siblings = target.parent().siblings();
+   var items = [];
+    $(siblings).each(function(i,v)
+    {
+        var item = {src:$(v).attr('href')+'#view=FitH'};
+        items.push(item);
+    console.log(items);   
+        if( i === siblings.length - 1 )
+        {
+            $.magnificPopup.open({
+                items : items,
+                gallery : { enabled : true },
+                 type : 'iframe',
+              iframe: {
+       markup: '<div class="mfp-iframe-scaler my-magnific">'+
+                        '<div class="mfp-close"></div>'+
+                        '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>'+
+                    '</div>'
+   }
+            });
+        }
+
+        
+    });
+  
+});
+
+    
+    
+  
+
+});  
+</script>
+  
+
+
+
+
+
+
+
+</section>
+
+
+</div></div></div>
+<script src='/scripts/magnific.js'></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+  <title>Jessica Tibbits</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link href='/styles/style.css' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
+        <link href='/styles/magnific.css' rel='stylesheet' type='text/css'>
+  <script src='https://code.jquery.com/jquery-1.12.0.min.js'></script>
+  
+</head>
+<body>
+<div id="outer-wrapper">
+  <div id="middle-wrapper">
+  <div id="inner-wrapper">
+<header>
+<h1><a href="/"><img id="logo-image" src="/images/logo.jpg" alt="Jessica Tibbits" /></a></h1> 
+
+  
+
+
+
+<nav><ul id="top-nav"><li><a class="current" href="/write/about">ABOUT</a></li>
+<li ><a href="#">PORTFOLIO<ul class="hover-menu">
+<li><a href="/write/portfolio/celebrity">CELEBRITY</a></li>
+<li><a href="/write/portfolio/editorial">EDITORIAL</a></li>
+<li><a href="/write/portfolio/promotions">PROMOTIONS</a></li>
+<li><a href="/write/portfolio/still-life">STILL-LIFE</a></li>
+<li><a href="/write/portfolio/travel">TRAVEL</a></li>
+</ul></a></li>
+<li><a  href="/write/contact">CONTACT</a></li>
+</ul></nav></header>
+<section id="content-wrapper"><p>With over eight years' experience in the publishing industry, I am an established beauty and travel journalist and have worked at a variety of magazines including Cosmopolitan, Look and, most recently, InStyle, as Beauty Writer and Online Health &amp; Fitness Editor.</p>
+
+<p>From interviewing high profile celebrities including Gwyneth Paltrow, Cate Blanchett and Blake Lively to writing in-depth skincare and travel features, reporting from backstage at fashion week and directing still life shoots, I have a broad range of journalistic experience.</p>
+
+<p>I have also presented videos in association with global beauty brands including Clinique, Estee Lauder and Babyliss.</p>
+
+<img src="/images/jess-write.jpg" alt="Jessica Tibbits" />
+
+
+
+</section>
+
+
+</div></div></div>
+<script src='/scripts/magnific.js'></script>
+</body>
+</html>
